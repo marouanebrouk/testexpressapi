@@ -7,7 +7,6 @@ route.post("/create",create)
 route.get("/fetch",fetch)
 route.put("/update/:id",update)
 route.delete("/delete/:id",deleteClient)
-// route.delete("/delete/:id",deleteClient)
 
 
 export default route;
